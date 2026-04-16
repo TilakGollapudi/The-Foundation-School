@@ -1,0 +1,91 @@
+/* =========================
+   RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+}
+
+
+/* =========================
+   FOOTER BACKGROUND IMAGE
+========================= */
+
+.playschool-footer {
+    background-color: #082567;
+    min-height: 340px;
+}
+
+/* =========================
+   HEADINGS
+========================= */
+
+.playschool-footer h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.playschool-footer h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.playschool-footer h3,
+.playschool-footer h5 {
+    color: #F8F9FA;
+}
+
+
+
+/* =========================
+   TEXT
+========================= */
+
+.playschool-footer p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.playschool-footer ul li {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+
+/* =========================
+   LINKS
+========================= */
+
+.playschool-footer ul li a {
+    text-decoration: none;
+    color: #F8F9FA;
+    /* Visible on dark background */
+    transition: 0.3s ease;
+}
+
+
+.playschool-footer ul li a:hover {
+    text-decoration: none !important;
+    padding-left: 5px;
+    color: #F8F9FA !important;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+    .playschool-footer {
+        text-align: center;
+    }
+}

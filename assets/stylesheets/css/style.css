@@ -1,0 +1,596 @@
+/* General */
+body {
+    background-color: #ffffff;
+    font-family: 'Georgia', serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/*****************************/
+/*     Navbar CSS            */
+/*****************************/
+
+/* General Reset */
+/* 
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+}
+*/
+/* Navbar Background & Height */
+/* 
+.playschool-navbar {
+    background-color: #082567 !important;
+    padding: 10px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+*/
+/* Logo Styling */
+/* 
+.logo-img {
+    height: 45px;
+    width: auto;
+}
+
+.school-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #F8F9FA;
+    white-space: nowrap;
+}
+*/
+/* Desktop Links */
+/* 
+.navbar-nav .nav-link {
+    color: #F8F9FA !important;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFC107 !important;
+}
+    */
+
+/* Toggler Styling */
+/* 
+.navbar-toggler {
+    border: 1px solid #ffffff !important;
+    padding: 4px 8px;
+}
+*/
+/* White Hamburger Icon */
+/* 
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+    width: 20px;
+    height: 20px;
+}
+*/
+/* Mobile Adjustments (Screen width < 992px) */
+/* 
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        background-color: #082567;
+        padding: 20px;
+        margin-top: 10px;
+        border-radius: 8px;
+    }
+
+    .navbar-nav .nav-link {
+        margin-left: 0;
+        padding: 12px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+}
+*/
+
+/* =========================
+   Footer RESET
+========================= */
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+}
+
+*/
+/* =========================
+   FOOTER BACKGROUND IMAGE
+========================= */
+/*
+.playschool-footer {
+    background-color: #082567;
+    min-height: 340px;
+}
+*/
+/* =========================
+   HEADINGS
+========================= */
+/* 
+.playschool-footer h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.playschool-footer h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.playschool-footer h3,
+.playschool-footer h5 {
+    color: #F8F9FA;
+}
+
+*/
+
+/* =========================
+   TEXT
+========================= */
+/*
+.playschool-footer p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.playschool-footer ul li {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+*/
+/* =========================
+   LINKS
+========================= */
+/*
+.playschool-footer ul li a {
+    text-decoration: none;
+    color: #F8F9FA;
+    /* Visible on dark background */
+/*  transition: 0.3s ease;
+}
+
+
+.playschool-footer ul li a:hover {
+    text-decoration: none !important;
+    padding-left: 5px;
+    color: #F8F9FA !important;
+}
+*/
+
+/* =========================
+   RESPONSIVE
+========================= */
+/*
+@media (max-width: 768px) {
+    .playschool-footer {
+        text-align: center;
+    }
+}
+*/
+/*****************************/
+/*     Contact Us CSS        */
+/*****************************/
+
+/* Section Spacing */
+.contact-section {
+    padding: 10px 0;
+}
+
+/* Titles */
+.subtitle {
+    margin-top: 43px;
+    letter-spacing: 3px;
+    font-size: 14px;
+    color: #999;
+    text-transform: uppercase;
+}
+
+.main-title {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.divider {
+    width: 60px;
+    height: 2px;
+    background-color: #000;
+    margin: 15px auto 0;
+}
+
+/* Image */
+.image-box img {
+    border-radius: 8px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+/* Form Box */
+.form-box {
+    background: #fafafa;
+    padding: 40px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+/* Inputs */
+.custom-input {
+    border-radius: 0;
+    border: 1px solid #ddd;
+    padding: 12px;
+    font-size: 15px;
+}
+
+.custom-input:focus {
+    border-color: #000;
+    box-shadow: none;
+}
+
+/* Button */
+.submit-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 0;
+}
+
+.submit-btn:hover {
+    background-color: #444;
+    color: #fff;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    /* .contact-section {
+        padding-top: 40px !important;
+    }*/
+
+    .contact-section h2,
+    .contact-section .text-center {
+        margin-top: 0 !important;
+    }
+
+    .text-center,
+    .main-title {
+        font-size: 22px;
+    }
+
+    .form-box {
+        padding: 20px;
+    }
+
+    iframe {
+        height: 350px !important;
+    }
+
+    .subtitle {
+        margin-top: 10px;
+    }
+
+}
+
+
+/*****************************/
+/*     Programs CSS          */
+/*****************************/
+
+/* Programs Section */
+.program-section {
+    padding: 20px 0;
+}
+
+
+/* Program Card */
+.program-box {
+    background: #fafafa;
+    padding: 35px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+
+}
+
+.program-box:hover {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.06);
+}
+
+/* Text Area */
+.program-content {
+    flex: 1;
+}
+
+.program-box h4 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.age {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.program-box ul {
+    padding-left: 18px;
+}
+
+.program-box ul li {
+    margin-bottom: 8px;
+}
+
+/* Image */
+.program-image img {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Curriculum */
+.curriculum-text {
+    max-width: 700px;
+    margin: 20px auto 0;
+    color: #555;
+    line-height: 1.7;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    .main-title {
+        font-size: 22px;
+    }
+
+    .program-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .program-image img {
+        width: 280px;
+        height: 150px;
+        margin-top: 15px;
+    }
+
+    iframe {
+        height: 350px !important;
+    }
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+
+    .main-title {
+        font-size: 22px;
+    }
+
+    .program-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .program-image img {
+        width: 270px;
+        height: 150px;
+        margin-top: 15px;
+    }
+
+    iframe {
+        height: 350px !important;
+    }
+}
+
+
+
+/****************************/
+/*        About Us          */
+/****************************/
+
+/* ===== Banner Background Image ===== */
+.about-banner {
+    height: 300px;
+    background: url("https://playschooladmissions.in/wp-content/uploads/2025/02/Playschool-admissions-in-Delhi.webp") center/cover no-repeat;
+    position: relative;
+}
+
+/* Dark overlay for better text visibility */
+.about-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.about-banner .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* ===== About Section ===== */
+.about-section {
+    background: linear-gradient(to bottom, #ffffff);
+}
+
+/* ===== About Card ===== */
+.about-card {
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* ===== Carousel Image Fix ===== */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    iframe {
+        height: 350px !important;
+    }
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+
+    iframe {
+        height: 380px !important;
+    }
+}
+
+/*****************************/
+/*      HOME PAGE            */
+/*****************************/
+
+/* HERO SECTION */
+.hero {
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero h1 {
+    font-weight: 700;
+}
+
+.hero-img {
+    padding-top: 10px;
+    border-radius: 25px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Decorative shapes */
+.shape1,
+.shape2 {
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.shape1 {
+    width: 300px;
+    height: 300px;
+    background: #e3f2fd;
+    top: -100px;
+    right: -100px;
+}
+
+.shape2 {
+    width: 200px;
+    height: 200px;
+    background: #fff3cd;
+    bottom: -80px;
+    left: -80px;
+}
+
+/* Feature Cards */
+.feature-card {
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+/* Program Cards */
+.program-card {
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.program-card:hover {
+    transform: scale(1.03);
+    background: #f8f9fa;
+}
+
+/* Carousel */
+.carousel-img {
+    height: 600px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+/* CTA */
+.cta {
+    background: #f8f9fa;
+    padding: 80px 0;
+    border-radius: 40px;
+}
+
+footer {
+    background: #111827;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+
+
+/*****************************/
+/*   Program Detail Page     */
+/*****************************/
+
+.program-banner {
+    height: 300px;
+    background: url("https://playschooladmissions.in/wp-content/uploads/2025/02/Playschool-admissions-in-Delhi.webp") center/cover no-repeat;
+    position: relative;
+}
+
+.program-banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.program-banner .container {
+    position: relative;
+    z-index: 2;
+}
+
+.program-detail-list {
+    padding-left: 18px;
+}
+
+.program-detail-list li {
+    margin-bottom: 8px;
+}
+
+.routine-card {
+    background: #ffffff;
+    transition: 0.3s;
+}
+
+.routine-card:hover {
+    transform: translateY(-5px);
+}
