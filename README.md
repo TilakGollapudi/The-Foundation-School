@@ -182,12 +182,6 @@ The website features:
 
 ---
 
-## 🌐 Live Demo
-
-Visit the live application: [the-foundation-school.vercel.app](https://the-foundation-school.vercel.app)
-
----
-
 ## 👥 Authors
 
 | Name | Role |
