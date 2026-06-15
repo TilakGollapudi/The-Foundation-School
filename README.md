@@ -30,8 +30,7 @@ The Foundation School is a full-featured website for an educational institution.
 
 | Layer | Technologies |
 |-------|--------------|
-| **Frontend** | HTML5, CSS3, Bootstrap 5 |
-| **Backend** | Java, JSP (Java Server Pages) |
+| **Frontend** | HTML5, CSS3, Bootstrap 5, JSP (Java Server Pages) |
 | **Server** | Apache Tomcat |
 | **Styling** | Custom CSS with responsive design |
 | **Architecture** | Component-based (MVC-inspired) |
@@ -75,9 +74,8 @@ The-Foundation-School/
 
 ### Prerequisites
 
-- **Java 8+** installed
 - **Apache Tomcat 9+** configured
-- **IDE** - Eclipse, IntelliJ IDEA, or VS Code with Java extensions
+- **IDE** - Eclipse, IntelliJ IDEA, or VS Code
 - **Git** for version control
 
 ### Installation
@@ -219,7 +217,7 @@ If you found this project helpful, please consider giving it a star! It helps us
 ## 📞 Contact & Support
 
 For questions or support, please reach out through:
-- 📧 Email: Available in the Contact page
+- 📧 Email: gollapudithilak1308@gmail.com
 - 🐛 Issues: Use the GitHub Issues section
 - 💬 Discussions: Community discussions tab
 
