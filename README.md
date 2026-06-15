@@ -5,7 +5,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Java](https://img.shields.io/badge/Java-66.9%25-007396?style=flat-square)](https://www.java.com/)
 [![CSS](https://img.shields.io/badge/CSS-33.1%25-1572B6?style=flat-square)](https://www.w3.org/Style/CSS/)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-blueviolet)](https://the-foundation-school.vercel.app)
 
 ---
 
